@@ -1,2 +1,2 @@
 # SDG
-My SDG Assignments &amp; Code
+My SDG Assignments & and Code!
