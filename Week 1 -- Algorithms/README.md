@@ -1,2 +1,2 @@
 # Week 1 -- Algorithms
-My Algorithmic Thinking Assignments
+My Algorithmic Thinking Assignments!
