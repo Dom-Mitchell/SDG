@@ -1,0 +1,32 @@
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.exe
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.deps.json
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.runtimeconfig.json
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.runtimeconfig.dev.json
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.dll
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\ref\AllCardsOnDeckCS.dll
+C:\Users\domen\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.pdb
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.csproj.AssemblyReference.cache
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.AssemblyInfoInputs.cache
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.AssemblyInfo.cs
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.csproj.CoreCompileInputs.cache
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.dll
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\ref\AllCardsOnDeckCS.dll
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.pdb
+C:\Users\domen\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.genruntimeconfig.cache
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.csproj.AssemblyReference.cache
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.AssemblyInfoInputs.cache
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.AssemblyInfo.cs
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.csproj.CoreCompileInputs.cache
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.dll
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\ref\AllCardsOnDeckCS.dll
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.pdb
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.exe
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.deps.json
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.runtimeconfig.json
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.runtimeconfig.dev.json
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.dll
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\ref\AllCardsOnDeckCS.dll
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\bin\Debug\netcoreapp5.0\AllCardsOnDeckCS.pdb
+C:\Users\domen\sdgFolder\Week 2 -- Csharp\AllCardsOnDeckCS\obj\Debug\netcoreapp5.0\AllCardsOnDeckCS.genruntimeconfig.cache
