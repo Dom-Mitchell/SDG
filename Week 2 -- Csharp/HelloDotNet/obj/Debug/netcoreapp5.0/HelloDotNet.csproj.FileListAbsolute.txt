@@ -1,0 +1,16 @@
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.exe
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.deps.json
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.runtimeconfig.json
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.runtimeconfig.dev.json
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.dll
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\ref\HelloDotNet.dll
+C:\Users\domen\HelloDotNet\bin\Debug\netcoreapp5.0\HelloDotNet.pdb
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.csproj.AssemblyReference.cache
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.AssemblyInfoInputs.cache
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.AssemblyInfo.cs
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.csproj.CoreCompileInputs.cache
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.dll
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\ref\HelloDotNet.dll
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.pdb
+C:\Users\domen\HelloDotNet\obj\Debug\netcoreapp5.0\HelloDotNet.genruntimeconfig.cache

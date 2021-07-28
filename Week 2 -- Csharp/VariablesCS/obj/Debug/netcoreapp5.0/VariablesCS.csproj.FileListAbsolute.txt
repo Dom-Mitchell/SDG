@@ -1,0 +1,16 @@
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.exe
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.deps.json
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.runtimeconfig.json
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.runtimeconfig.dev.json
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.dll
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\ref\VariablesCS.dll
+C:\Users\domen\VariablesCS\bin\Debug\netcoreapp5.0\VariablesCS.pdb
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.csproj.AssemblyReference.cache
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.AssemblyInfoInputs.cache
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.AssemblyInfo.cs
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.csproj.CoreCompileInputs.cache
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.dll
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\ref\VariablesCS.dll
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.pdb
+C:\Users\domen\VariablesCS\obj\Debug\netcoreapp5.0\VariablesCS.genruntimeconfig.cache
