@@ -1,0 +1,272 @@
+##### ATM Sleep/Idle Mode #####
+```````````````````````````````
+Display Image 1
+If the user touched the screen exit Sleep/Idle mode and
+ move to Active mode
+Display Image 2
+Repeat step 4
+Display Image 3
+Repeat step 4
+Go back to step 3
+
+##### ATM Active Mode #####
+```````````````````````````
+Prompt User to insert card into machine
+Check to see if card is tied to a user account
+If card is tied to user account then, check to make sure
+ card is active otherwise move to step 20
+If card is not active card on account display "Error" and 
+ prompt user to call bank for more details
+If card isn't tied to a user account display "Error"
+ then prompt user to use a different card or call bank
+If card is active and tied to a user account then prompt
+ user to enter pin #
+Check to make sure pin # entered is tied to the particular
+ card that was inserted into machine
+If pin # is tied to the card that was inserted into machine
+ display Options screen
+If pin # isn't tied to the card that was inserted prompt
+ user to retry pin #
+Repeat step 24
+If pin # is tied to the card that was inserted into machine
+ display Options screen
+If pin # isn't tied to the card that was inserted prompt
+ user to retry pin # and give a warning that the user only
+  has one more attempt before there card is frozen
+Repeat step 24
+If pin # is tied to the card that was inserted into machine
+ display Options screen
+If pin # isn't tied to the card that was inserted prompt
+ user that there card has now been frozen and they need to
+  call there bank to reactivate there card display this for
+   20 seconds then return to Sleep/Idle mode
+
+##### ATM Options Screen #####
+#                            #
+# *Withdraw        *Deposit  #
+#                            #
+# *Balance         *Cancel   #
+#   Inquiry          Request #
+##############################
+
+If user clicks Withdraw, Deposit, or Balance Inquiry, then
+ display Accounts screen
+If user clicks Cancel Request then display Exit screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Accounts Screen #####
+#                             #
+# *Checking        *Savings   #
+#   Account          Account  #
+#                             #
+#          *Cancel            #
+#            Request          #
+###############################
+
+If user had clicked Withdraw in the previous step and
+ clicks Checking Account or Savings Account display Amounts
+  screen
+If user had clicked Balance Inquiry in the previous step and
+ clicks Checking Account then display C Balance screen
+If user had clicked Balance Inquiry in the previous step and
+ clicks Savings Account then display S Balance screen
+If user had clicked Deposit in the previous step and clicks
+ Checking Account then display C Deposit screen
+If user had clicked Deposit in the previous step and clicks
+ Savings Account then display S Deposit screen
+If the previous screen was Account Warning then go to 
+If user clicks Cancel Request then display Exit screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Amounts Screen #####
+#                            #
+# *20              *80       #
+# *40              *100      #
+# *60              *200      #
+# *Select Amount   *Cancel   #
+##############################
+
+If user clicks 20, 40, 60, 80, 100, or 200, then check to
+ make sure user has selected amount in there account
+If user does have selected amount in there account then
+ dispense money
+If user doesn't have selected amount in there account then
+ display Account Warning screen
+If user clicks Select Amount then display Select screen
+If user clicks Cancel then display Exit screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Select Screen #####
+#                           #
+#     ________________      #
+# Please enter the amount   #
+#  that you would like to   #
+#   withdraw!               #
+#                  *Cancel  #
+#############################
+
+Determine whether or not user has typed a number amount
+If user types any number then, determine whatever the value
+ is for that particular number then determine if the user
+  has that particular amount of money in there account
+If user does have that particular amount within there 
+ account then dispense money and display Continue Service
+  screen
+If user doesn't have that particular amount in there
+ account then display Account Warning screen
+If user clicks Cancel then display Exit screen
+If user hasn't typed a number wait 20 seconds then display
+ the Still There? screen
+
+##### ATM C Balance Screen #####
+#                              #
+#                   Balance    #
+#    Checking       ```````    #
+#     Account       $xxx,xxx   #
+#                   ````````   #
+#    *Go Back       *Print     #
+################################
+
+If user clicks Print then display a summary of users 
+ Checking Account Balance on a receipt then dispense receipt 
+  to user, now wait 20 seconds then display Continue Service
+   screen
+If user clicks Go Back then display Options screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM S Balance Screen #####
+#                              #
+#                   Balance    #
+#    Savings        ```````    #
+#     Account       $xxx,xxx   #
+#                   ````````   #
+#    *Go Back       *Print     #
+################################
+
+If user clicks Print then display a summary of users 
+ Savings Account Balance on a receipt then dispense receipt 
+  to user, now wait 20 seconds then display Continue Service
+   screen
+If user clicks Go Back then display Options screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM C Deposit Screen #####
+#                              #
+#  Please insert bills to      #
+#   deposit into your Checking #
+#    Account                   #
+#                              #
+#    *Go Back          *Done   #
+################################
+
+If user clicks Go Back then display Accounts screen
+Whenever user clicks Done display C Balance screen updated
+ to show transaction
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM S Deposit Screen #####
+#                              #
+#  Please insert bills to      #
+#   deposit into your Savings  #
+#    Account                   #
+#                              #
+#    *Go Back          *Done   #
+################################
+
+If user clicks Go Back then display Accounts screen
+Whenever user clicks Done display S Balance screen updated
+ to show transaction
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Account Warning Screen #####
+#                                    #
+#     You are trying to withdraw     #
+#      more money than you have in   #
+#       your account! Would you like #
+#        to do a balance inquiry?    #
+#         Please press Yes or No     #
+#                                    #
+#          *Yes             *No      #  
+######################################
+
+If user clicks Yes then display Accounts screen
+If user clicks No then display Continue Service screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Continue Service Screen #####
+#                                     #
+#        Would you like to make       #
+#         another transaction?        #
+#          Please press Yes or        #
+#           No to continue            #
+#                                     # 
+#          *Yes           *No         #
+#######################################
+
+If the previous screen was C Balance or S Balance and the  
+ user selects Yes then display Options screen
+If the previous screen was Account Warning screen and user
+ selects Yes then display Select screen
+If user selects No then display Receipt screen
+
+##### ATM Receipt Screen #####
+#                            #
+#  Would you like a receipt  #
+#   for your transaction(s)? #
+#    Please press Yes or No  #
+#     to continue.           #
+#                            #
+#      *Yes          *No     #
+##############################
+
+If user had withdrawn from there checking or savings account 
+  and clicks Yes then display receipt updated to show the
+  transaction that was made then dispense receipt now wait
+   20 seconds then display Exit screen
+If user had deposited from there checking or savings account
+ and clicks Yes then display receipt updated to show the 
+ transaction that was made then dispense receipt now wait
+  20 seconds then display Exit screen
+If user had withdrawn and deposited from there checking or
+ savings account and clicks Yes then display receipt updated
+  to show all transactions that were made then dispense
+   receipt now wait 20 seconds then display Exit screen
+If user clicks No then display Exit screen
+If user hasn't clicked any button wait 20 seconds then
+ display the Still There? screen
+
+##### ATM Still There? Screen #####
+#                                 #
+#        Are you still there?     #
+#         Please press Yes or     #
+#          No to continue         #
+#                                 #
+#         *Yes             *No    #
+###################################
+
+If the previous screen was the Options, Accounts, C Balance,
+ S Balance, Amounts, Select, C Deposit, S Deposit, Account
+  Warning, Still There?, or Receipt screen and user clicks
+   Yes then display the previous corresponding screen
+If user clicks No then display Exit screen
+If user hasn't selected either Yes or No then wait 20 
+ seconds dispense users card then return to Sleep/Idle mode
+
+##### ATM Exit Screen #####
+#                         #
+#     Thank you for using #
+#      this ATM, have a   #
+#       great day!        #
+#                         #
+###########################
+
+Dispense users card and display Exit screen for 20 seconds
+ then return to Sleep/Idle mode
