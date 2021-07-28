@@ -1,0 +1,68 @@
+###### Variable Cheat Sheet ######
+``````````````````````````````````
+X = length
+Y = (#) number of tiles
+P = position
+Z = (#) recursive letter
+N = current letter
+F = frequency
+
+###### Scrabble Sequence ######
+```````````````````````````````
+Make a memory spot with label X
+Put number Y in memory spot X
+Make memory spot with label P
+Set P to equal 1
+Make a memory spot with the label Z
+Turn scrabble tile at position at the value of P
+Set Z to value of tile at P
+Make a memory spot with label N
+Repeat step 17
+Set N to value of tile at P
+Change Z to the next letter within the alphabet
+Add 1 to P, P += 1
+Repeat step 17 if value of P isn't equal to Z go to 28
+Repeat step 21
+If P is equal to X then go to step 28
+If Z is equal to N then go back to step 22; Else go to step 29
+STOP and return answer of NO
+STOP and return answer of YES
+
+###### Scrabble Duplicates ######
+`````````````````````````````````
+Make a memory spot with label X
+Put number Y in memory spot X
+Make memory spot with label P
+Set P to equal 1
+Make a memory spot with the label Z
+Turn scrabble tile at position at the value of P
+Set Z to value of tile at P
+Make a memory spot with label N
+Set N to equal P 
+Add 1 to P; P += 1
+Repeat step 38; if value of P isn't equal to Z go to 46
+Repeat step 41
+If P is equal to X and N then go to 47
+STOP and return answer of NO
+STOP and return answer of YES
+
+###### Scrabble Vowels ######
+`````````````````````````````
+Make a memory spot with label X
+Put number Y in memory spot X
+Make memory spot with label P
+Set P to equal 1
+Make a memory spot with the label Z
+Turn scrabble tile at position at the value of P
+Set Z to value of tile at P
+Make a memory spot with label N
+Repeat step 59
+Set N to value of tile at P
+Change Z to the next letter within the alphabet
+Add 1 to P, P += 1
+Repeat step 59 if value of P isn't equal to Z go to 70
+Repeat step 63
+If P is equal to X then go to step 70
+If Z is equal to N then go back to step 64; Else go to step 71
+STOP and return answer of NO
+STOP and return answer of YES
