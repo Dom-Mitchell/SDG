@@ -1,0 +1,90 @@
+##### Cipher Notes #####
+````````````````````````
+Needs to have a key
+Key must be known when encoding
+Key can be known or unknown when decoding
+Key has to be in range: (0 - 25)
+Needs to have a plaintext
+Plaintext is what gets encoded
+Needs to have a ciphertext
+Ciphertext is what is getting decoded
+
+##### Cipher Letter Values #####
+```````````````````````````````
+Key:
+Trees
+T = 19, R = 17, E = 4, E = 4 S = 18
+
+Plaintext:
+Walk
+W = 22, A = 0, L =11, K = 10
+In
+I = 8, N = 13
+The
+T =19, H = 7, E = 4
+Woods
+W  = 22, O = 14, O = 14, D = 3, S = 18
+
+Ciphertext:
+Dadc
+D = 3, A = 0, D = 3, C = 2
+In
+I = 8, N = 13
+Cda
+C = 2, D = 3, A = 0
+Eoodc
+E = 4, O = 14, O = 14, D = 3, C = 2
+
+##### Cipher Encoding #####
+```````````````````````````
+You are given plaintext of ________. (Walk in the woods)
+Write down the plaintext. (Walk in the woods)
+Determine how many characters long the plaintext is. (14)
+You are given a key of ____________. (trees)
+Write down the key. (trees)
+Keep writing the key until it matches the # of characters 
+ from the plaintext that we determined earlier but,
+  do so without any spaces between the words.
+   Walkinthewoods
+   treestreestree
+Determine how many letters apart the first letter of the
+ plaintext and the key are numerically.
+  W = 22, T = 19
+Take modulus of first letter # place from the plaintext and
+ the first letter # place of the key.
+  22 % 19 = 3
+Figure out which letterr is in the # place from the modulus
+ above.
+  D = 3
+Write down the letter in the # place from the modulus above,
+ this is the first letter of your ciphertext.
+Repeat steps 50 through 59 moving onto the next letter of
+ the plaintext each time.
+  DADCINCDAEOODC
+
+##### Cipher Decoding #####
+```````````````````````````
+You are given ciphertext of ________. (DADCINCDAEOODC)
+Write down the ciphertext. (DADCINCDAEOODC)
+Determine how many characters long the ciphertext is. (14)
+You are given a key of ____________. (trees)
+Write down the key. (trees)
+Keep writing the key until it matches the # of characters 
+ from the ciphertext that we determined earlier but,
+  do so without any spaces between the words.
+   DADCINCDAEOODC
+   treestreestree
+Determine how many letters apart the first letter of the
+ ciphertext and the key are numerically.
+  D = 3, T = 19
+Take modulus of first letter # place from the plaintext and
+ the first letter # place of the key.
+  3 % 19 = 3
+Figure out which letter is in the # place from the modulus
+ above.
+  D = 3
+Write down the letter in the # place from the modulus above,
+ this is the first letter of your plaintext.
+Repeat steps 77 through 86 moving onto the next letter of
+ the ciphertext each time.
+  WALKINTHEWOODS
